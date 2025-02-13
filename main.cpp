@@ -27,10 +27,11 @@ int main() {
     int minutes = diff.count() / 60;      
     int seconds_count = diff.count() % 60;
 
+    std::cout << "It's Been:\n";
     std::cout << days << " days, "
               << hours << " hours, "
               << minutes << " minutes, "
-              << seconds_count << " seconds." << std::endl;
+              << seconds_count << " seconds" << std::endl;
 
     return 0;
 }
