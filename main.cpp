@@ -9,8 +9,8 @@ int main() {
     startTime.tm_year = 2025 - 1900; 
     startTime.tm_mon = 1;            
     startTime.tm_mday = 14;
-    startTime.tm_hour = 0;
-    startTime.tm_min = 0;
+    startTime.tm_hour = 1;
+    startTime.tm_min = 44;
     startTime.tm_sec = 0;
 
     std::time_t startTime_t = std::mktime(&startTime);
